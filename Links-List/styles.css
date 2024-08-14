@@ -1,0 +1,128 @@
+html,
+body {
+  background-color: rgb(28, 130, 173);
+  background: radial-gradient(circle, rgb(28, 130, 173) 0%, rgb(0, 51, 124) 50%, rgb(19, 0, 90) 90%) center center/cover no-repeat fixed;
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bolder;
+  align-content: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.Background-Container {
+  display: flex;
+  margin: 0 10%;
+  border-radius: 2vb;
+  background: rgba(0, 51, 124, 0.2);
+  align-self: center;
+  justify-self: center;
+}
+.Background-Container .Global-Container {
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 2vb;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  background-clip: padding-box;
+  align-content: center;
+  justify-content: center;
+  padding: 5vb;
+}
+.Background-Container .Global-Container .Links-Container {
+  background-color: rgba(28, 130, 173, 0.5);
+  border-radius: 2vb;
+}
+.Background-Container .Global-Container .Links-Container .Links-Tittle {
+  color: white;
+  margin: 0;
+}
+.Background-Container .Global-Container .Links-Container .Links-Tittle p {
+  margin: 2vb 0 0 0;
+  text-align: center;
+}
+.Background-Container .Global-Container .Links-Container .Links-Item {
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  display: flex;
+  grid-auto-flow: column;
+  align-items: center; /* Aligns items vertically center */
+  border: solid;
+  border-radius: 2vb;
+  background-color: rgba(0, 34, 77, 0.6);
+  gap: 10px;
+  margin: 2vb;
+  transition: all 0.3s ease-in-out;
+  border-color: rgba(3, 201, 136, 0.6);
+}
+.Background-Container .Global-Container .Links-Container .Links-Item .Links-Img {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Background-Container .Global-Container .Links-Container .Links-Item .Links-Img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 4vb;
+  margin: 1vb;
+  height: 4vb;
+}
+.Background-Container .Global-Container .Links-Container .Links-Item .Links-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Background-Container .Global-Container .Links-Container .Links-Item .Links-Text p {
+  color: white;
+  text-align: center;
+  margin: 0 2vb 0 0;
+}
+.Background-Container .Global-Container .Links-Container .Links-Item:hover {
+  background-color: rgba(3, 201, 136, 0.3);
+}
+.Background-Container .Global-Container .Youtube {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.Background-Container .Global-Container .Youtube .Links-Item {
+  border-color: rgba(255, 0, 0, 0.3);
+}
+.Background-Container .Global-Container .Youtube .Links-Item:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.Background-Container .Global-Container .Instagram {
+  background: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+}
+.Background-Container .Global-Container .Instagram .Links-Item {
+  border-color: purple;
+}
+.Background-Container .Global-Container .Instagram .Links-Item:hover {
+  background-color: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+}
+.Background-Container .Global-Container .Project img {
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: x-large;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: large !important;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: large !important;
+  }
+}/*# sourceMappingURL=styles.css.map */
